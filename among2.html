@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Arrancar Reactor Among Us</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="titulo"><h1>Arrancar Reactor</h1>
+      <div class="global">
+        <div class="gameboard">
+            <div class="circulos">
+                <div id="c1A" class="circulo"></div>
+                <div id="c2A" class="circulo"></div>
+                <div id="c3A" class="circulo"></div>
+                <div id="c4A" class="circulo"></div>
+                <div id="c5A" class="circulo"></div>
+            </div>
+            <div class="cuadricula">
+                <div class="fila">      
+                    <div id="unoA" class="cuadroA"></div>
+                    <div id="dosA" class="cuadroA"></div>
+                    <div id="tresA" class="cuadroA"></div>
+                </div>
+                <div class="fila">
+                    <div id="cuatroA" class="cuadroA"></div>
+                    <div id="cincoA" class="cuadroA"></div>
+                    <div id="seisA" class="cuadroA"></div>
+                </div>
+                <div class="fila">
+                    <div id="sieteA" class="cuadroA"></div>
+                    <div id="ochoA" class="cuadroA"></div>
+                    <div id="nueveA" class="cuadroA"></div>
+                </div>
+            </div>
+        </div>
+        <div class="gameboard">
+            <div class="circulos">
+                <div id="c1" class="circulo"></div>
+                <div id="c2" class="circulo"></div>
+                <div id="c3" class="circulo"></div>
+                <div id="c4" class="circulo"></div>
+                <div id="c5" class="circulo"></div>
+            </div>
+            <div class="fila">
+                <div id="uno" class="cuadro" data-casilla="uno"></div>
+                <div id="dos" class="cuadro" data-casilla="dos"></div>
+                <div id="tres" class="cuadro" data-casilla="tres"></div>
+            </div>
+            <div class="fila">
+                <div id="cuatro" class="cuadro" data-casilla="cuatro"></div>
+                <div id="cinco" class="cuadro" data-casilla="cinco"></div>
+                <div id="seis" class="cuadro" data-casilla="seis"></div>
+            </div>
+            <div class="fila">
+                <div id="siete" class="cuadro" data-casilla="siete"></div>
+                <div id="ocho" class="cuadro" data-casilla="ocho"></div>
+                <div id="nueve" class="cuadro" data-casilla="nueve"></div>        
+            </div>        
+        </div>
+        <button id="btnEmpezar" class="btn-start" onclick="empezarJuego()">Empezar a jugar!</button>
+      </div>
+    </div>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="among2.js"></script>
+  </body>
+</html>

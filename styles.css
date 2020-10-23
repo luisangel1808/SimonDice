@@ -1,0 +1,118 @@
+body{
+background: whitesmoke;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: fantasy;
+  color: #2c3e50 ;
+}
+
+.global{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.gameboard {
+display: flex;
+flex-direction: column;    
+align-items: center;
+background-color: rgb(173, 166, 166); 
+margin: 20px; 
+outline:  1px solid black;
+padding: 5px;
+-webkit-box-shadow: 0px 0px 10px 14px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 10px 14px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 10px 14px rgba(0,0,0,0.75); 
+}
+.circulos{
+display: flex;
+margin: 2px;
+padding: 5px;
+}
+
+.circulo{
+  width: 10px;
+  height: 10px;
+  background-color: gray;
+  border: 1px solid black;
+  border-radius: 50%;          
+  margin: 2px;        
+}
+
+.circuloA{
+  width: 10px;
+  height: 10px;  
+  border: 1px solid black;
+  border-radius: 50%;          
+  margin: 2px;   
+  -moz-box-shadow: 0px 0px 20px #ffffff;
+  -webkit-box-shadow: 0px 0px 20px #ffffff;
+  box-shadow: 0px 0px 20px #ffffff;             
+}
+.cuadricula{
+  width: 71px;
+  height: 71px;
+  background-color: black;
+  border: 1px solid cornsilk;
+}
+
+.cuadro{
+  width: 20px;
+  height: 20px;
+  margin: 1px;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  gray 0%, rgb(5, 5, 5) 82.8% );
+  border: 1px solid black;
+  -webkit-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75); 
+  cursor: pointer;
+}
+.fila{
+  display: flex;
+  justify-content: center;
+}
+
+.cuadroA{
+  width: 20px;
+  height: 20px;
+  margin: 1px;  
+  border: 1px solid black;
+}
+
+.btn-start {
+width: 400px;
+height: 100px;
+background: #ecf0f1;
+color: #2c3e50;
+font-size: 2.5rem;
+}
+
+.cuadro.light {
+background: #7ed6df;
+}
+.cuadro.recibir {
+  background: #d0e5e7;
+  }
+.cuadroA.light {
+background: #7ed6df;
+}
+.cuadro.lighterror{
+background: red;
+}
+.circulo.light {
+background: greenyellow;
+}
+.circulo.lighterror{
+background: red;
+}
+.hide {
+display: none;
+}
